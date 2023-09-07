@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#title {
+  text-align: center;
+  width: 100%;
+  font-size: larger;
+}
+
+.bar {
+  border: 1px solid green;
+}
+
+.bar:hover {
+  fill: yellow;
+  border: 1px solid black;
+}
+
+.tooltip {
+  background-color: rgb(236, 222, 68);
+  display: inline-block;
+  position: absolute;
+}
